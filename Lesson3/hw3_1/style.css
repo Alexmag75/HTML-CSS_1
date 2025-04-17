@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #eae7e7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+header{
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: #2929dd;
+    margin-top: 20px;
+}
