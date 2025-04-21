@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100%;
-}
+
 header, footer{
     width: 100vw;
     height: 22vh;
