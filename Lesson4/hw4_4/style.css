@@ -29,11 +29,15 @@ main{
     display: flex;
     flex-direction: column;
 }
-.box_1{
+.box1{
     height: 43vh;
     background:#7F7A7A;
 }
-.box_2{
+.box2{
     height: 43vh;
     background:#6B6161;
+}
+footer{
+    height: 10vh;
+    background:#D9D9D9;
 }
