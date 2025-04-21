@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 4vh;
+}
+header{
+    height: 50px;
+    background: #D9D9D9;
+}
+main{
+    height: 86vh;
+    display: flex;
+    flex-direction:row;
+}
+.container_1{
+    width: 29vw;
+    background: #A4A4A4;
+}
+.container_2{
+    width: 31vw;
+    background: #C1C1C1;
+}
+.container_3{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.box_1{
+    height: 43vh;
+    background:#7F7A7A;
+}
+.box_2{
+    height: 43vh;
+    background:#6B6161;
+}
