@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     width: 100vw;
@@ -24,5 +26,12 @@ ul{
     align-items: center;
     list-style-type: none;
     gap: 59px;
-
+}
+ul li{
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
 }
