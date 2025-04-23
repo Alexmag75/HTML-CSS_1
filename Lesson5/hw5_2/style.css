@@ -7,7 +7,6 @@
 body{
     width: 100vw;
     background: #1E1E1E;
-
 }
 .wrapper{
     width: 1340px;
@@ -110,8 +109,6 @@ img{
     font-weight: 600;
     line-height: 139.896%; /* 33.575px */
     letter-spacing: -0.48px;
-
-
 }
 .button-1{
     color: #1E1E1E;
@@ -134,11 +131,7 @@ img{
 /*-----------------------section-imag2---------------------*/
 .section-imag2{
     width: 100%;
-    margin: 64px auto 0 auto;
+    margin: 30px  auto 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
+    gap: 40px;
 }
