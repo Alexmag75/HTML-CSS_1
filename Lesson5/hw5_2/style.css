@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 body{
     width: 100vw;
@@ -14,11 +13,13 @@ body{
     width: 1340px;
     margin: 0 auto;
 }
+/*------------------------nav----------------------------*/
 nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-top: 36px;
+    margin-top: 36px;
+    margin-left: 51px;
 }
 ul{
     display: flex;
@@ -28,10 +29,45 @@ ul{
     gap: 59px;
 }
 ul li{
-    color: #E9E3DC;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
+}
+li a{
+    text-decoration: none;
+    color: #E9E3DC;
+}
+.nav_click a{
+    width: 203px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B3A0CD;
+    color: #1E1E1E;
+    margin: 21px 26px 22px 27px;
+}
+/*-----------------------Title-------------------------*/
+.title_h1{
+    width: 1255px;
+    height: 285px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 107.088px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    margin: 74px auto;
+}
+/*-----------------------Burgerr----------------------*/
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px auto;
 }
