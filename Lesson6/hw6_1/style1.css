@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1, .box2, .box3, .box4, .box5 {
+    margin: 20px;
+}
+.box1>ul>li:nth-child(2n){
+    color : #bc9a9a;
+}
+.box2>ul>li:nth-child(2n+1){
+    font-size: 22px;
+}
+.box3>ul>li:nth-child(2n+4)::after{
+    content: "!";
+}
+.box4>ul>li:last-of-type{
+    color : #2386cf;
+}
+.box5>ul>li:first-letter{
+    color : #cf2343;
+    font-size: 30px;
+}
