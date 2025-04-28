@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .box1, .box2, .box3, .box4, .box5 {
     margin: 20px;
