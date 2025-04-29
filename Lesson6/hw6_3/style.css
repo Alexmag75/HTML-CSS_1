@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.wrapper{
+    width: 600px;
+    height: 70%;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin: 20% auto;*/
+    background-color: #2972b3;
+    border-color: #b8cfcf;
+}
