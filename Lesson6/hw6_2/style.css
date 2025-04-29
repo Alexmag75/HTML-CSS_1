@@ -45,8 +45,25 @@ form {
 }
 input[type="text"], input[type="password"]{
     width: 400px;
-    height: 30px;
+    height: 40px;
     margin-top: 15px;
+    padding-left: 5px;
 }
-
-
+.box_save{
+    width: 400px;
+    height: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.box_save [type="submit"]{
+    width: 120px;
+    height: 30px;
+    background-color: #b1e3e3;
+    border-radius: 10px;
+    border-color: #6B6161;
+}
+.box_save [type="checkbox"]{
+margin-left: 5px;
+}
