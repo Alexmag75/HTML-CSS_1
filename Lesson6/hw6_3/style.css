@@ -79,6 +79,7 @@ form>p{
     color: white;
     font-size: 24px;
     font-weight: bold;
+    padding-top: 6px;
 
 }
 form>div+p{
