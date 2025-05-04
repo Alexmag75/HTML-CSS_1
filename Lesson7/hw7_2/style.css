@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    width: 1400px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+/*--------------header---------------------------------*/
 header{
-    width: 100%;
+    width: 100vw;
     height: 113px;
     display: inline-flex;
     background: #24204A;
@@ -52,25 +53,8 @@ nav ul li a{
     font-style: normal;
     font-weight: 500;
 }
-
-
-
-
-.container_1{
-    width: 100%;
-    height: 692px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-
-
-
-
-.box_1
+/*--------------------section-1---------------------------*/
+.container_1
 {
     width: 100%;
     height: 579px;
@@ -115,7 +99,7 @@ nav ul li a{
     justify-content: center;
     margin-top: 32px;
 }
-.bloc_2 p{
+.bloc_2 h1{
     color: #FFF;
     font-family: Inter, sans-serif;
     font-size: 36px;
@@ -152,7 +136,6 @@ nav ul li a{
     margin-top: 32px;
 }
 .bloc_4 p{
-
     color: #FFF;
     text-align: center;
     font-family: Inter, sans-serif;
@@ -179,7 +162,7 @@ nav ul li a{
     box-shadow: 10px 20px 50px 0 rgba(0, 0, 0, 0.25);
     margin: 48px 28px 45px 29px;
 }
-/*-------------------container2------------------*/
+/*-------------------section-2------------------*/
 .container_2{
     width: 100%;
     height: 764px;
@@ -237,7 +220,7 @@ nav ul li a{
     font-weight: 700;
     line-height: normal;
 }
-.box_text p:nth-child(2){
+.box_text h3{
     color: #8E88C1;
     font-family: Inter, sans-serif;
     font-size: 16px;
@@ -260,7 +243,7 @@ nav ul li a{
     position: absolute;
     top: 156px;
 }
-.box_center>p{
+.box_center h2{
     color: #FFF;
     text-align: center;
     font-family: Inter, sans-serif;
@@ -276,7 +259,7 @@ nav ul li a{
     position: absolute;
     top: 332px;
 }
-.text p{
+.text h3{
     color: #8E88C1;
     text-align: center;
     font-family: Inter, sans-serif;
@@ -305,7 +288,7 @@ nav ul li a{
     flex-direction: column;
 
 }
-.box5 p{
+.box5 h4{
     display: block;
     width: 178px;
     height: 60px;
@@ -320,10 +303,13 @@ nav ul li a{
     line-height: 20px; /* 125% */
     letter-spacing: 0.8px;
 }
+
+/*----------------section-3*/
 .container_3{
     width: 1400px;
     height: 664px;
 }
+/*----------------footer------------*/
 .container_4{
     width: 1400px;
     height: 94px;
