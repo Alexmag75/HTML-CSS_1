@@ -12,7 +12,7 @@ body{
 }
 /*--------------header---------------------------------*/
 header{
-    width: 100vw;
+    width: 1400px;
     height: 113px;
     display: inline-flex;
     background: #24204A;
