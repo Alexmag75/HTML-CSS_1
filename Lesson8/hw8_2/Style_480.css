@@ -1,0 +1,29 @@
+@media screen  and (max-width: 480px){
+    section{
+        display: flex;
+        width: 375px;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        background: #F3F5F6;
+    }
+    .wrapper {
+        gap:32px;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: space-between;
+        gap:32px;
+    }
+    .box{
+        width: 343px;
+    }
+    .box h2{
+        margin-top: 16px;
+    }
+    .box p{
+        margin-top: 8px;
+    }
+}
